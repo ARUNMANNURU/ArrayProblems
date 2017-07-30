@@ -17,7 +17,6 @@ public class ArrayRotation {
 		rotateArray(arrElements,2);
 	}
 	static void rotateArray(int[] arrElements,int d){
-		
 		int len = arrElements.length;
 		int[] finalArray = new int[len];
 		int k=0;
@@ -35,3 +34,5 @@ public class ArrayRotation {
 		}
 	}
 }
+
+// Order of O(n) and O(d)
